@@ -21,7 +21,7 @@ app.use(express.urlencoded({extended: true}))
 
 // Maak een GET route voor de index
 app.get('/', async function (request, response) {
-  try {
+
     // Haal alle stories uit de API op
     const storiesData = await fetchJson('https://fdnd-agency.directus.app/items/tm_story');
     // Haal alle playlists uit de API op
@@ -29,11 +29,7 @@ app.get('/', async function (request, response) {
 
     // Render index.ejs uit de views map en geef de opgehaalde data mee als variabelen, genaamd stories en playlists
     response.render('index', { stories: storiesData.data, playlists: playlistsData.data });
-  } catch (error) {
-    // Handel eventuele fouten af
-    console.error('Error fetching data:', error);
-    response.status(500).send('Error fetching data');
-  }
+
 })
 
 
