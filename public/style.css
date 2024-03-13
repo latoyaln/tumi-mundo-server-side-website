@@ -66,19 +66,32 @@ p{
     padding: var(--padding-1);
     background: var(--method);
     color: var(--white);
+    height: 100%;
 
     & h1{
         text-align: center;
     }
+    & .playlists-story{ 
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        height: 70vh;
+    }
 
     & .own-playlist{
         background-color: var(--white);
-        color: var(--black);
         padding: var(--padding-1);
-        width: 50vw;
+        width: 43vw;
         margin-bottom: 1em;
         border-radius: 5px;
+        margin-right: 1rem;
 
+        & a {
+            text-decoration: none;
+            color: var(--black);
+        }
         & img{
             max-width: 100%;
         }
@@ -95,17 +108,18 @@ p{
         background-color: var(--method-playlist);
         color: var(--white);
         text-align: center;
-    }
-    & .allstories-story {
+    } 
+}
+  & .allstories-story {
         display: grid;
         grid-template-column: repeat(3, 1fr);
         grid-gap: 10px;
         list-style-type: none;
         padding: 0;
+        overflow-x:scroll;
+        height: 100vh;
         
         & .language-toggle{
-         
-           
 
             & button{
                 display: inline-block;
@@ -173,6 +187,20 @@ p{
             }
         }
     }
-  
-}
 /*lesson stories styling*/
+
+/*all stories*/
+
+.search{
+    width: 70vw;
+    border-radius: 7px;
+    padding: 0.5rem;
+    border: none;
+}
+.sorting a{
+    color: var(--white);
+    text-decoration: none;
+    text-align: center;
+    background-color: var(--method-playlist);
+    padding: 0.5rem;
+}
