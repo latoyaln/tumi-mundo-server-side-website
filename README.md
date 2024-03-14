@@ -20,6 +20,8 @@ De focus bij deze kinderen ligt op het blootstellen van bepaalde/unieke klanken 
 
 Deze repository is gemaakt net een aangeleverde figma design.
 
+![mobile.pdf](https://github.com/latoyaln/tumi-mundo-server-side-website/files/14602185/mobile.pdf)
+
 
 ## Kenmerken
 Deze site is gemaakt door Node EJS en Express.
