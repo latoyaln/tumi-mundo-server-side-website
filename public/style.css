@@ -25,6 +25,7 @@
 
         /*create playlist*/
         --method-playlist: rgba(73, 67, 117, 0.5);
+        --black-tranparent: rgba(0, 0, 0, 0.9);
     /*fonts*/
       /*family*/
       --text: 'Poppins', 'Helvetica', Sans-Serif;
@@ -203,3 +204,110 @@ p{
     background-color: var(--method-playlist);
     padding: 0.5rem;
 }
+
+/*nav styles*/
+.menuToggle {
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    right: 50px; 
+    z-index: 1000; 
+    background:  var(--black-tranparent);
+    padding: 0.5rem;
+    border-radius: 5px;
+    & a {
+        text-decoration: none;
+        color: var(--white);
+        transition: color 0.3s ease;
+      }
+    & input {
+        display: block;
+        width: 40px;
+        height: 32px;
+        position: absolute;
+        top: -7px;
+        left: -5px;
+        cursor: pointer;
+        opacity: 0;
+        z-index: 2;
+        -webkit-touch-callout: none;
+      }
+      
+    & span {
+        display: block;
+        width: 33px;
+        height: 4px;
+        margin-bottom: 5px;
+        position: relative;
+        background: var(--white);
+        border-radius: 3px;
+        z-index: 1;
+        transform-origin: 4px 0px;
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+      }
+      & span:first-child {
+        transform-origin: 0% 0%;
+      }
+      
+      & span:nth-last-child(2) {
+        transform-origin: 0% 100%;
+      }
+      & input:checked ~ span {
+        opacity: 1;
+        transform: rotate(45deg) translate(-2px, -1px);
+        background: var(--white);
+      }
+      & input:checked ~ span:nth-last-child(3) {
+        opacity: 0;
+        transform: rotate(0deg) scale(0.2, 0.2);
+      }
+     & input:checked ~ span:nth-last-child(2) {
+        transform: rotate(-45deg) translate(0, -1px);
+      }
+      & .menu {
+        position: fixed;
+        width: 100%; /* Set to full width */
+        height: 100%; /* Set to full height */
+        top: 0;
+        left: 0;
+        background: var(--black-tranparent);
+        list-style-type: none;
+        -webkit-font-smoothing: antialiased;
+        transform-origin: 0% 0%;
+        transform: translate(-100%, 0);
+        transition: transform 0.5s cubic-bezier(0.77, 0.2, 0.05, 1.0);
+        display: grid;  
+        grid-template-columns: repeat(2, 1fr);
+
+    & li {
+        padding: 10px 0;
+        font-size: 22px;
+      }  
+   
+    }
+    & input:checked ~ ul {
+        transform: translate(0, 0); /* Slide in from the left */
+      }
+  }
+  .home, .lessons, .profile{
+    margin: var(--padding-1);
+  }
+  .home img, .lessons img, .profile img, .test img, .statistic img{
+    padding: var(--padding-1);
+    border-radius: 5px;
+  }
+  .home img{
+     background: #3F92B6;
+  }
+  .test img{
+    background: #599AE7;
+  }
+  .lessons img{
+    background: #954BE2;
+  }
+  .statistic img{
+    background: #06A192;
+  }
+  .profile img{
+    background: #FD8C73;
+  }
