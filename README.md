@@ -40,13 +40,6 @@ Je komt terecht op de lessons pagina vanuit de lessons abbonement kan je klikken
 
 ## Bronnen
 Dit zijn de bronnen die ik voor dit project heb gebruikt:
-* [Codepen](https://codepen.io/nxworld/pen/ZYNOBZ) (Hover over de images)
-* [YouTube](https://www.youtube.com/watch?v=3yfswsnD2sw&t=519s&ab_channel=KevinPowell) (Voor de horizontal media scroller)
-* [Google Fonts](https://fonts.google.com/) (Lettertypes)
-* [Whois](whois.fdnd.nl) (API informatie)
-* [Cyclic](cyclic.sh) (Live link)
-* [Node js](https://nodejs.org/en/download/) (Voor het installeren van Node js)
-* [Github forks](https://github.com/fdnd-task/connect-your-tribe-squad-page/network/members) (Inspiratie)
   
 ## Licentie
 
