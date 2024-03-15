@@ -25,6 +25,7 @@ Deze repository is gemaakt met een aangeleverde figma design.
 
 ## Kenmerken
 Deze site is gemaakt door Node EJS en Express.
+Bij [bouwen](https://github.com/latoyaln/tumi-mundo-server-side-website/wiki/3.-Bouwen) is te zien hoe alles in elkaar zit
 
 ## Installatie
 * Node installatie - Via [Nodejs.org](https://nodejs.org/en/download/) heb ik eerst Node js gedownload.
