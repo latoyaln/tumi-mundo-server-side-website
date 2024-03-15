@@ -13,12 +13,12 @@ Tumi Muno Web app
   * [Licentie](#licentie)
 
 ## Beschrijving
-In deze repository werk ik aan een web app voor Tumi Mundo. 
+In deze repository werk ik aan een web app voor Tumi Mundo.
 Het bevat een responsive webapp waar kinderen van 0-4 jaar audioverhalen kunnen luisteren als ondersteuning voor het ontwikkelen van een tweede taal naast hun moedertaal.
 Dit valt allemaal binnen een account waar de ouders toezicht op hebben. De audioverhalen en gegevens, zoals de titels en de tekst, zullen wij ophalen vanuit de database.
 De focus bij deze kinderen ligt op het blootstellen van bepaalde/unieke klanken binnen de taal die zij willen leren, zodat zij deze klanken op jonge leeftijd meekrijgen.
 
-Deze repository is gemaakt net een aangeleverde figma design.
+Deze repository is gemaakt met een aangeleverde figma design.
 
 ![mobile.pdf](https://github.com/latoyaln/tumi-mundo-server-side-website/files/14602185/mobile.pdf)
 
@@ -42,6 +42,11 @@ Je komt terecht op de lessons pagina vanuit de lessons abbonement kan je klikken
 
 ## Bronnen
 Dit zijn de bronnen die ik voor dit project heb gebruikt:
+
+* [Directus]([https://codepen.io/nxworld/pen/ZYNOBZ](https://docs.directus.io/getting-started/introduction.html)) (Om meer te leren over directus en filteren)
+* [Figma](figma.com) (Voor de styling en de schetsen)
+* [Render](render.com) (Voor het live zetten van de site)
+* [Node js](https://nodejs.org/en/download/) (Voor het installeren van Node js)
   
 ## Licentie
 
