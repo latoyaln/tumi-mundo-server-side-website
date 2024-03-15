@@ -43,7 +43,7 @@ Je komt terecht op de lessons pagina vanuit de lessons abbonement kan je klikken
 ## Bronnen
 Dit zijn de bronnen die ik voor dit project heb gebruikt:
 
-* [Directus]([https://codepen.io/nxworld/pen/ZYNOBZ](https://docs.directus.io/getting-started/introduction.html)) (Om meer te leren over directus en filteren)
+* [Directus](https://docs.directus.io/getting-started/introduction.html) (Om meer te leren over directus en filteren)
 * [Figma](figma.com) (Voor de styling en de schetsen)
 * [Render](render.com) (Voor het live zetten van de site)
 * [Node js](https://nodejs.org/en/download/) (Voor het installeren van Node js)
